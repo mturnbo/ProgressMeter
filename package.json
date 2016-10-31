@@ -1,0 +1,25 @@
+{
+  "name": "progressmeter",
+  "version": "0.1.0",
+  "description": "SVG progress meter generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mturnbo/ProgressMeter.git"
+  },
+  "keywords": [
+    "SVG",
+    "progress",
+    "meter",
+    "generator"
+  ],
+  "author": "Marcus E. Turnbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mturnbo/ProgressMeter/issues"
+  },
+  "homepage": "https://github.com/mturnbo/ProgressMeter#readme"
+}
