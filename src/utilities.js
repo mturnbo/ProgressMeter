@@ -1,8 +1,8 @@
-/* SVG Utilities */
+/* Utilities */
 
 import config from 'config';
 
-var SVGUtilities = {
+var Utilities = {
   makeSVG: (width, height) => {
     let svg = document.createElementNS(config.svgns, 'svg');
     svg.setAttribute('width', width);
@@ -67,8 +67,8 @@ var SVGUtilities = {
   },
 
   makeArc: (id, centerX, centerY, radius, startAngle, endAngle, style) => {
-    let start = SVGUtilities.polarToCartesian(centerX, centerY, radius, startAngle);
-    let end = SVGUtilities.polarToCartesian(centerX, centerY, radius, endAngle);
+    let start = Utilities.polarToCartesian(centerX, centerY, radius, startAngle);
+    let end = Utilities.polarToCartesian(centerX, centerY, radius, endAngle);
     let isLargeArc = endAngle - startAngle <= 180 ? '0' : '1';
     let sweep = 1;
     let attr = [
@@ -95,4 +95,4 @@ var SVGUtilities = {
   }
 };
 
-export default SVGUtilities;
+export default Utilities;

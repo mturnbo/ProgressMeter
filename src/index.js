@@ -1,3 +1,3 @@
-import SVGUtilities from 'utils/svgUtilities';
+import Line from 'line';
 
-export {SVGUtilities};
+export {Line};
